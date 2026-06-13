@@ -421,6 +421,49 @@
     .ctn-btn:hover{
         background: var(--gradient-4);
     }
+    /* Footer-section */
+    footer{
+        margin-top: 80px;
+        background: url(./images/footer-agency.png);
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .col-4{
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer1 h4{
+        font-size: 30px;
+        margin-bottom: 30px;
+        color: #282f59;
+    }
+
+    .footer1 i{
+        margin: 50px 20px;
+        font-size: 25px;
+        color: grey;
+    }
+    .col-4 h4{
+        color: #282f59;
+    }
+    .footer2 p, .footer3 p, .footer p{
+        color: grey;
+        font-weight: 400;
+    }
+    .copyright{
+        display: flex;
+        justify-content: space-around;
+        color: grey;
+        padding: 30px;
+        font-weight: 400;
+    }
+    .footer hr{
+        width: 90%;
+        margin: 10px auto;
+    }
     @keyframes scaleup{
         0% {
             transform: scale(1.2);

@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome-link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>techBees-Website</title>
 </head>
@@ -21,7 +25,7 @@
                 <li><a href="#" class="btn">Contact Us</a></li>
             </ul>
         </nav>
-        <div class="row">
+        <div class="row" data-aos="fade-down-right" data-aos-duration="3000">
             <div class="header-content">
                 <h1>We are startup creative agency</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, alias. Omnis, voluptates porro. Deleniti, dolore explicabo nostrum molestias ipsum qui fuga autem expedita corporis maiores?</p>
@@ -36,7 +40,8 @@
      <!-- Services-section -->
      <div class="services">
         <div class="container">
-            <div class="grid-wrapper">
+            <div data-aos="fade-up"
+                data-aos-duration="3000" class="grid-wrapper">
                 <div class="grid-box mobileapp">
                     <img src="./images/mobileapp.png" alt="">
                     <h3>Mobile App</h3>
@@ -54,7 +59,9 @@
                     <h3>Branding</h3>
                 </div>
             </div>
-            <div class="services-content">
+            <div class="services-content"  
+                data-aos="fade-down"
+                data-aos-duration="3000">
                 <div class="circle">
                     <img src="./images/circle.svg" alt="">
                 </div>
@@ -66,11 +73,17 @@
         </div>
      </div>
      <!-- Number-section -->
-      <section class="numbers">
-        <h2>We lead from front</h2>
+      <section  class="numbers">
+        <div data-aos="fade-down"
+                data-aos-duration="3000">
+            <h2>We lead from front</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eos nihil id tenetur eligendi suscipit quo eius. Aperiam autem error ea et corrupti. Quis dolorem obcaecati voluptatem animi officiis. Id in natus voluptatum accusantium non.</p>
+        </div>
         <div class="container">
-            <div class="grid-wrapper">
+            <div class="grid-wrapper"
+             data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
                 <div class="grid-box happy-client">
                     <h3>2500+</h3>
                     <h4>Happy Clients</h4>
@@ -88,7 +101,9 @@
                     <h4>Awesome Designs</h4>
                 </div>
             </div>
-            <div class="mockup-img">
+            <div class="mockup-img" data-aos="flip-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <img src="./images/team-mockup.png" alt="">
             </div>
         </div>
@@ -97,7 +112,7 @@
        <section class="projects">
         <h2>Our Latest Projects </h2>
         <div class="projects-images">
-            <div class="proj-img">
+            <div class="proj-img"data-aos="zoom-in-up">
                 <img src="./images/project-1.jpg" alt="">
                 <div class="details">
                     <h3>Creative</h3>
@@ -105,7 +120,7 @@
                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
-             <div class="proj-img">
+             <div class="proj-img"data-aos="zoom-in-up">
                 <img src="./images/project-2.jpg" alt="">
                 <div class="details">
                     <h3>Creative</h3>
@@ -113,7 +128,7 @@
                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
-             <div class="proj-img">
+             <div class="proj-img"data-aos="zoom-in-up">
                 <img src="./images/project-3.jpg" alt="">
                 <div class="details">
                     <h3>Creative</h3>
@@ -121,7 +136,7 @@
                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
-             <div class="proj-img">
+             <div class="proj-img"data-aos="zoom-in-up">
                 <img src="./images/project-4.jpg" alt="">
                 <div class="details">
                     <h3>Creative</h3>
@@ -129,7 +144,7 @@
                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
-             <div class="proj-img">
+             <div class="proj-img"data-aos="zoom-in-up">
                 <img src="./images/project-5.jpg" alt="">
                 <div class="details">
                     <h3>Creative</h3>
@@ -137,7 +152,7 @@
                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
-             <div class="proj-img">
+             <div class="proj-img"data-aos="zoom-in-up">
                 <img src="./images/project-6.jpg" alt="">
                 <div class="details">
                     <h3>Creative</h3>
@@ -151,7 +166,8 @@
         <section class="team">
             <h2>Meet Our Team</h2>
             <div class="grid-wrapper">
-                <div class="team-member">
+                <div class="team-member"data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
                     <img src="./images/team1.png" alt="">
                         <h3>Sweden</h3>
                         <h4>CEO & Founder</h4> 
@@ -163,7 +179,8 @@
                        </div>
                          
                 </div>
-                <div class="team-member">
+                <div class="team-member"data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"data-aos-duration="3000">
                     <img src="./images/team2.png" alt="">
                         <h3>Sabah Tasnin</h3>
                         <h4>Manager</h4> 
@@ -174,7 +191,8 @@
                             <i class="fa-solid fa-envelope"></i>
                         </div>    
                 </div>
-                <div class="team-member">  
+                <div class="team-member"data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"data-aos-duration="3000">  
                     <img src="./images/team3.png" alt="">
                         <h3>Al-amin</h3>
                         <h4>Designer</h4> 
@@ -185,7 +203,8 @@
                             <i class="fa-solid fa-envelope"></i>
                         </div>  
                 </div>
-                <div class="team-member"> 
+                <div class="team-member"data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"data-aos-duration="3000"> 
                     <img src="./images/team4.png" alt="">
                         <h3>Aminul Islam</h3>
                         <h4>Engineer</h4> 
@@ -200,10 +219,11 @@
         </section>
         <!-- Testimonial-section -->
         <section class="testimonials">
-            <h2>What our clients says</h2>
-            <p class="testimonials-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloribus vel fugiat perferendis reiciendis tempore reprehenderit voluptates cumque ea maiores!</p>
+            <div data-aos="fade-down-right" data-aos-duration="3000">
+                <h2>What our clients says</h2>
+            <p class="testimonials-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloribus vel fugiat perferendis reiciendis tempore reprehenderit voluptates cumque ea maiores!</p></div>
             <div class="grid-wrapper">
-                <div class="review">
+                <div class="review" data-aos="zoom-in-down" data-aos-duration="3000">
                     <i class="fa-solid fa-quote-left"></i>
                     <div class="profile">
                         <img src="./images/team1.png" alt="">
@@ -211,7 +231,7 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis consequatur temporibus quod. Ab omnis iusto, dolor tenetur quaerat ea quidem.</p>
                 </div>
-                <div class="review">
+                <div class="review" data-aos="zoom-in-down" data-aos-duration="3000">
                     <i class="fa-solid fa-quote-left"></i>
                     <div class="profile">
                         <img src="./images/team2.png" alt="">
@@ -219,7 +239,7 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis consequatur temporibus quod. Ab omnis iusto, dolor tenetur quaerat ea quidem.</p>
                 </div>
-                <div class="review">
+                <div class="review" data-aos="zoom-in-down" data-aos-duration="3000">
                     <i class="fa-solid fa-quote-left"></i>
                     <div class="profile">
                         <img src="./images/team3.png" alt="">
@@ -232,21 +252,21 @@
         </section>
         <!-- Blog-section -->
         <section class="blogs">
-            <h2 class="blog-h2">Our Latests Blogs</h2>
+            <h2 class="blog-h2" data-aos="fade-up" data-aos-duration="3000">Our Latests Blogs</h2>
             <div class="grid-wrapper">
-            <div class="blog">
+            <div class="blog"data-aos="flip-right" data-aos-duration="3000">
                 <img src="./images/blog1.png" alt="">
                 <h3>Powerful app for tracking daily activities</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque modi aut autem iure nobis libero, quas reiciendis quis tempore, sunt asperiores laudantium possimus esse a, consectetur dolorem. Officia, assumenda amet.</p>
                 <a href="#">Read More...</a>
             </div>
-            <div class="blog">
+            <div class="blog"data-aos="flip-left" data-aos-duration="3000">
                 <img src="./images/blog2.png" alt="">
                 <h3>Powerful app for tracking daily activities</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque modi aut autem iure nobis libero, quas reiciendis quis tempore, sunt asperiores laudantium possimus esse a, consectetur dolorem. Officia, assumenda amet.</p>
                 <a href="#">Read More...</a>
             </div>
-            <div class="blog">
+            <div class="blog" data-aos="flip-right" data-aos-duration="3000">
                 <img src="./images/blog3.png" alt="">
                 <h3>Powerful app for tracking daily activities</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque modi aut autem iure nobis libero, quas reiciendis quis tempore, sunt asperiores laudantium possimus esse a, consectetur dolorem. Officia, assumenda amet.</p>
@@ -255,7 +275,7 @@
             </div>
         </section>
         <!-- Get-started-section -->
-         <div class="getstarted">
+         <div class="getstarted" data-aos="fade-down-right" data-aos-duration="3000">
             <div class="ctn-container">
                  <div class="ctn-text">
                     <h1>Get Connected With TechBees</h1>
@@ -264,5 +284,57 @@
                  <button class="ctn-btn">Get Started</button>
             </div>
          </div>
+         <!-- Footer-section -->
+        <footer>
+            <div class="grid-wrapper" data-aos="fade-up"
+            data-aos-duration="3000">
+                <div class="col-4 footer1">
+                    <h4>Tech Bees</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem labore odit quas delectus amet natus optio enim placeat fugiat.</p>
+                      <div class="social-profiles">
+                        <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                             <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-solid fa-envelope"></i>
+                       </div>
+                </div>
+                <div class="col-4 footer2">
+                    <h4>Contact info</h4>
+                    <p>Tech Bees, New Jersery</p>
+                    <p>Newyork , USA</p>
+                    <p>000-0000-00215</p>
+                    <p>techbees@gmail.com</p>
+                    <p>website.com</p>
+                </div>
+                <div class="col-4 footer3">
+                    <h4>About Us</h4>
+                    <p>Company</p>
+                    <p>Projects</p>
+                    <p>Events</p>
+                    <p>Awards</p>
+                    <p>Open Source</p>
+                </div>
+                <div class="col-4 footer4">
+                    <h4>Custom Software</h4>
+                    <p>Web Design</p>
+                    <p>App Development</p>
+                     <p>Awards</p>
+                    <p>Open Source</p>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p>Copyright Aklima Akter. all rights reserved</p>
+                <p>Terms & Condition</p>
+                <p>Privacy Policy</p>
+            </div>
+        </footer>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            
+            <script>
+                AOS.init();
+             </script>
+
 </body>
 </html>
