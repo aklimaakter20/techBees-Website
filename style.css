@@ -264,6 +264,59 @@
     .details h2{
         font-size: 30px;
     }
+     /* Team-section */
+    .team{
+        margin-top: 80px;
+    }
+    .team h2{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+      .team .grid-wrapper{
+        background: var(--gradient-2);
+        padding: 4rem;
+    }
+    .team-member{
+        background: white;
+        height: 350px;
+        border-radius: 5px;
+         display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+        transition: transform 1s ease;
+    }
+    .team-member:hover{
+        transform: translateY(-20px);
+    }
+    .team-member h3{
+        color: grey;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .team-member h4{
+        color: #009dfd;
+    }
+    .team-member .social-profiles i{
+        color: grey;
+        margin: 10px;
+        transition: transform 0.5s ease;
+        cursor: pointer;
+   }
+   
+    .team-member .social-profiles i:hover{
+        
+        color: blue;
+        transform: scale(1.2);
+   }
+    .team-member img{
+        width: 80px;
+        border-radius: 50%;
+        margin-top: 30px;
+    }
+  
+    
     @keyframes scaleup{
         0% {
             transform: scale(1.2);
