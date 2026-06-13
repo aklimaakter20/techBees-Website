@@ -464,6 +464,21 @@
         width: 90%;
         margin: 10px auto;
     }
+    /* Scroll to top */
+    #scrolltop{
+        color: white;
+        background: tomato;
+        border-radius: 50%;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: opacity 0.5s;
+    }
     @keyframes scaleup{
         0% {
             transform: scale(1.2);
